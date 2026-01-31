@@ -1,6 +1,4 @@
-我已为你完整更新了README文档，适配隐藏敏感信息后的代码（环境变量配置），同时补充了时区依赖、虚拟环境等实际部署细节，确保文档准确且符合GitHub开源规范：
 
-```markdown
 # Memos Mail Reminder
 A lightweight tool to send timed email reminders from Memos notes.  
 一款轻量级工具，用于从 Memos 备忘录中发送定时邮件提醒。
@@ -36,7 +34,7 @@ A lightweight tool to send timed email reminders from Memos notes.
    source venv/bin/activate  # Linux/Mac
    # venv\Scripts\activate  # Windows
    pip install requests markdown pytz
-   ```
+
 
 ### 配置说明
 #### 方式1：环境变量配置（推荐，安全无泄露）
